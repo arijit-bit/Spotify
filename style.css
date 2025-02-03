@@ -1,0 +1,644 @@
+.header ul {
+    list-style: none;
+    filter: invert();
+    padding: 5px;
+}
+
+.adjust {
+    padding: 15px;
+}
+
+.home {
+    background-color: rgb(180, 180, 180);
+    border-radius: 50px;
+}
+
+.bar {
+    background-color: rgb(180, 180, 180);
+    border-radius: 50px;
+}
+
+.slogo {
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.topbutton {
+    transition: .3s;
+    padding: 15px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-weight: bolder;
+}
+
+.login {
+    background-color: black;
+    color: white;
+}
+
+
+    /* background-color: rgb(153, 153, 153); */
+    /* border: 1px solid black; */
+
+
+#email::placeholder {
+    color: black;
+    background-color: rgb(180, 180, 180);
+    /* font-size: larger; */
+    font-size: 18px;
+    border: none;
+
+}
+
+#email {
+    background-color: gray;
+    border: none;
+    width: min(250px, 30vw);
+    outline: none;
+}
+#email:focus::placeholder {
+    background-color: rgb(180, 180, 180);
+     /* Lighter gray placeholder */
+}
+#email:focus{
+    background-color: rgb(180, 180, 180);
+    font-size: 18px;
+    
+
+}
+
+.main {
+    display: flex;
+    gap: 7px;
+
+}
+
+.libpartetion {
+    border-radius: 10px;
+    width: max(25vw, 300px);
+    background-color: rgb(33, 33, 33);
+
+}
+
+.library {
+    padding: 10px;
+}
+
+.artist {
+    width: 75vw;
+}
+
+.main {
+
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.libsub {
+    background-color: gray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 15px;
+
+}
+
+.libcont {
+    height: 40vh;
+    overflow: auto;
+}
+
+.libsubheading {
+    font-weight: bold;
+
+}
+
+.libsubbody {
+    font-size: small;
+    font-weight: bold;
+}
+
+.libheader {
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    padding: 15px;
+    box-shadow: 0px 7px 14px rgb(33, 33, 33);
+}
+
+#libgap {
+    display: flex;
+    gap: 14px;
+}
+
+.plus {
+    width: 15px;
+}
+
+.policy {
+    padding: 25px;
+
+}
+
+.psmalltext {
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.ebutton {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+.earth {
+    width: 20px;
+}
+
+.policy h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.earthcont {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.artist {
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+
+}
+
+.artist ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.artisttemplate {
+    padding: 17px;
+    padding-top: 0px;
+    display: flex;
+    gap: 5px;
+    /* flex-wrap: wrap; */
+    overflow:auto;
+}
+
+.mainlogo {
+    width: 150px;
+    border-radius: 7px;
+    padding: px;
+    margin: 20px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 20px 6px rgb(34, 21, 21);
+}
+
+.listlogo {
+    display: flex;
+    align-items: center;
+}
+
+.playheaderbg {
+    background-color: rgb(126, 85, 85);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.playbutton {
+    width: 18px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.controllbar {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.sidebutton {
+    width: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    transform: rotate(180deg);
+}
+
+.controlls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.controllbar {
+    display: flex;
+    align-items: center;
+}
+
+.songbox {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    width: 217px;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.slider {
+
+    height: 4px;
+    border-radius: 100px;
+    width: max(350px, 50vw);
+    margin-bottom: 10px;
+    background-color: rgb(67, 67, 67);
+    cursor: pointer;
+}
+
+.slider:hover .circle {
+    transition: 0.5s;
+    background-color: white;
+}
+
+.slider:hover .whiteline {
+    transition: 0.5s;
+    background-color: white;
+}
+
+
+
+.whiteline {
+    height: 3px;
+    width: 0px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.playlist {
+    height: 65%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.artist ul {
+    padding: 0px;
+    padding: 10px;
+}
+
+.circle {
+    width: 10px;
+    background-color: transparent;
+    border-radius: 1000px;
+    position: relative;
+    bottom: 6px;
+    height: 10px;
+    right: 5px;
+}
+
+.setup {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.currentduration {
+    font-size: small;
+    font-weight: 500;
+    position: relative;
+    right: 9px;
+    bottom: 4px;
+
+}
+
+.totalduration {
+    font-size: small;
+    font-weight: 500;
+    position: relative;
+    left: 9px;
+    bottom: 4px;
+
+}
+
+
+.menue {
+
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.menue:hover {
+    background-color: rgb(158, 156, 156);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+footer{
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0px 5px 7px 2px;
+}
+.sidebutton{
+    transition: 0.2s;
+}
+.sidebutton:hover{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+.playlist{
+    height: 41vh;
+    padding: 10px;
+}
+.playheaderbg{
+    box-shadow: 0px 4px 11px 2px #1b1a1a;
+    position: relative;
+    z-index: 1;
+    
+}
+.libs:hover{
+    background-color: gray;
+}
+:root{
+    --x:0;
+    --y:130px;
+}
+.arcard{
+    position: relative;
+    padding: 20px;
+    transition: .3s;
+    width: 150px;
+    cursor: pointer;
+}
+.arcard:hover{
+    background-color: #4b4b4b;
+    /* padding: 10px;
+    border-radius: 7px;
+    transition: .3s; */
+    padding: 20px;
+    transition:all .4s;
+    border-radius: 7px;
+    --x:100;
+    --y:115px;
+    /* transition: .3s; */
+}
+.greenlogo img {
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: var(--y);
+    left: 115PX;
+    background-color: rgb(63, 190, 63);
+    padding: 13px;
+    border-radius: 100px;
+    opacity: var(--x);
+    transition: .4s;
+    
+}
+.greenlogo img:hover{
+    
+    background-color: rgb(53, 153, 53);
+    size: 22px;
+}
+
+.tripledot img {
+    filter: invert();
+    width: 25px;
+    position: absolute;
+    top: -100px;
+    right: 14px;
+    background-color: #b4b4b4;
+    padding: 12px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.volume {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 5px;
+    right: 10px;
+    top: 30px;
+}
+.volume img {
+    filter: invert();
+}
+
+/* Basic slider styling */
+input[type="range"] {
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none;
+    width: 100%; /* Full width */
+    height: 3.5px; /* Slim slider track */
+    background: #ddd; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+/* Slider thumb (circle) styling */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb */
+    appearance: none;
+    width: 13px; /* Thumb width */
+    height: 13px; /* Thumb height */
+    background: #678067; /* Green thumb */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer; /* Pointer cursor */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Shadow for the thumb */
+    transition: background 0.3s ease; /* Smooth thumb color transition */
+}
+
+/* Hover effect on the thumb */
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #45a049; /* Darker green on hover */
+}
+
+/* Firefox styling for the thumb */
+input[type="range"]::-moz-range-thumb {
+    width: 100px;
+    height: 10px;
+    background: #4caf50;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect for the slider track */
+input[type="range"]:hover {
+    background: #bbb; /* Slightly darker track when hovered */
+}
+
+
+@media (max-width: 1010px) {
+    .libhome {
+        position: relative;
+        right: 300px;
+
+    }
+
+    .libpartetion {
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        left: -315px;
+        /* border: 2px solid red; */
+        height: 94.8%;
+        box-shadow: 5px 0px 7px 2px;
+        transition: .2s;
+        top: 72px;
+    }
+    .plus{
+        transition: .3s;
+        transform: rotateZ(45deg);
+        width: 25px;
+        margin-top: 2px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .plus:hover{
+        background-color:  rgb(158, 156, 156);
+        border-radius: 50px;
+        padding: 5px;
+        transition: .3s;
+    }
+
+    .artist {
+        width: 99%;
+        position: relative;
+        left: 5px;
+    }
+
+    .artist .lf {
+        padding-left: 44px;
+    }
+
+    .menue {
+        position: absolute;
+        z-index: 2;
+        left: 18px;
+        top: 79px;
+    }
+
+    .mainlogo {
+        position: relative;
+        left: 35px;
+    }
+
+    .playlistheader {
+        position: relative;
+        left: 35px;
+    }
+    .volume{
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+    .volume img {
+        width: 30px;
+    }
+    
+    .songbox{
+        position: absolute;
+        z-index: -1;
+        padding: 0px;
+        top: 0px;
+        left: 22px;
+
+    }
+    .seekbar{
+        padding-left: 23vw;
+    }
+
+}
+
+
+
+@media (max-width: 760px){
+    /* <ul class="headerul allflex">
+                    <li class="slogo point"><img src="logo.svg" alt="logo"></li>
+                    <li class="flex"><img src="home.svg" class="toplogo adjust home point" id="homebutton" alt="home">
+                        <div class="bar flex">
+
+                            <img src="search.svg" class="toplogo adjust" alt="search"> <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="What do you want to play?" required> <img src="lib.svg" class="toplogo adjust" alt="library"></li>
+                            <li><button  class ="signin point tophover topbutton">Sign up</button> <button class="login point topbutton tophover">Log in</button>
+                        </div>
+                    </li>
+                </ul> */
+    .login{
+        position: absolute;
+        right: 150vw;
+        width: 0px;
+        
+    }
+    .signin{
+        position: absolute;
+        right: 150vw;
+        width: 0px;
+
+    }
+    .arheader h2 {
+        font-size: large;
+        padding-left: 5px;
+    }
+    .arheader p {
+        font-size: small;
+        padding-left: 5px;
+    }
+    #albumshow{
+        font-size: small;
+        padding-left: 5px;
+    }
+    #email {
+        position: absolute;
+        right: 150vw;
+        width: 0px;
+        
+    }
+    #book{
+        position: absolute;
+        right: 150vw;
+        width: 0px;
+    }
+    header{
+        display: flex;
+
+    }
+    .tripledot img {
+        filter: invert();
+        width: 25px;
+        position: absolute;
+        top: 11px;
+        right: 14px;
+        background-color: #b4b4b4;
+        padding: 12px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    .adjust{
+        cursor: pointer;
+    }  
+
+}

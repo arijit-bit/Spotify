@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <img  class="menue inv" src="menue.svg" alt="menue bar">
+    <header>
+        <nav>
+            <div class="header">
+                <ul class="allflex">
+                    <li class="slogo point"><img src="logo.svg" alt="logo"></li>
+                    <li class="flex point"><img id="homebutton" src="home.svg" class="toplogo adjust home" alt="home">
+                        <div class="bar flex">
+
+                            <img src="search.svg" class="toplogo adjust" alt="search"> <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="What do you want to play?"
+                                required> <img src="lib.svg" id="book" class="toplogo adjust" alt="library">
+                    </li>
+                    <li><button class="tophover signin topbutton point">Sign up</button> <button class="tophover login topbutton point">Log
+                            in</button></li>
+            </div>
+
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="libpartetion" style="height: 80vh;">
+            <div class="library">
+                <ul class="allflex listnone libheader border">
+                    <li class="flex " id="libgap"><img src="library.svg" class="toplogo inv " alt="logo">
+                        <p class="inv">Your library</p>
+                    </li>
+                    <li><img src="plus.svg" class="plus inv" alt="logo"></li>
+                </ul>
+                <div class="songlist">
+                    <ul></ul>
+                </div>
+                <div class="libcont" style=" height: 65vh;">
+
+                    <div class="libsub point "
+                        style="background-color: rgb(55, 54, 54); padding: 10px; border-radius: 5px;">
+                        <ul class="listnone" style="display: flex; align-items: center; gap: 15px; ">
+                            <li><img style="border-radius: 2px; object-fit: fill; position: relative; top: 3px;"
+                                    src="sigma.jpg" alt="" width="40px"></li>
+                            <li class="inv">
+                                <h4>My playlist #1</h4>
+                                <h5>playlist.Arijit</h5>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="artist border " style="background-color:rgb(96, 32, 32);">
+            <div class="arheader listlogo playheaderbg">
+                <img class="mainlogo" src="sigma.jpg" alt="">
+                <div class="playlistheader">
+
+                    <h5 class="inv">Playlist</h5>
+                    <h1 class="inv" style="padding: 10px 0px;">My playlist #1</h1>
+                    <h5 class="inv">Arijit</h5>
+                </div>
+            </div>
+            <div class=" playlist overflow">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="controllbar ">
+            <div class="songbox">
+
+            </div>
+
+            <div class="seekbar">
+                <ul class=" listnone controlls">
+                    <li><img id="prev" class="inv prev sidebutton" src="next.svg" alt=""></li>
+                    <li><img id="play" class=" playbutton play" src="play.svg" alt=""></li>
+                    <li><img id="next" class="inv next sidebutton" src="next.svg" alt=""></li>
+                </ul> 
+                <div class="setup">
+                    <div class="currentduration inv">00:00</div>
+                    <div class="slider ">
+                        <div class="whiteline"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="totalduration inv">00:00</div>
+                </div>
+
+            </div>
+            <div class="volume">
+                    <img src="midvol.svg" alt="mic">
+                    <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5">
+            </div>
+        </div>
+    </footer>
+    <div class="tripledot">
+        <img src="three-dots-vertical-svgrepo-com.svg" alt="fuck">
+    </div>
+    <script src="script2.js"></script>
+    
+
+</body>
+
+</html>
